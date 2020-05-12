@@ -1,0 +1,16 @@
+﻿#include <stdio.h>
+#include <math.h>
+int main()
+{
+int a,b,s,d,m;
+printf("a=");
+scanf("%d",&a);
+printf("b=");
+scanf("%d",&b);
+s=a+b;
+d=b/a;
+m=a*b;
+printf("D\tP\tR\n"); 
+printf("%d\t%d\t%d", s, d, m); 
+    return 0;
+}

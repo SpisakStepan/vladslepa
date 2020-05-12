@@ -1,0 +1,32 @@
+﻿#include <stdio.h>
+#include <math.h>
+int main()
+{
+float k,s,t;
+printf("s=");
+scanf("%g",&s);
+printf("t=");
+scanf("%g",&t);
+if(s==-7){
+k=s/t+2*s*t;
+printf("k="); 
+printf("%g", k); 
+}
+else if(s==7)
+{
+k=sqrt(s/t+2*s*t);
+printf("k="); 
+printf("%g", k); 
+}
+else if(s==14)
+{
+k=pow(s,2)+2*t;
+printf("k="); 
+printf("%g", k); 
+}
+else
+{
+    printf("такого значення немає"); 
+}
+    return 0;
+}

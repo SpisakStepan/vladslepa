@@ -1,0 +1,27 @@
+﻿#include <stdio.h>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float x,y,z,a,b,c,d;
+    printf("x=");
+    scanf("%g",&x);
+    printf("y=");
+    scanf("%g",&y);
+    printf("z=");
+    scanf("%g",&z);
+    d=2*x;
+    b=pow(x,2)+2*x*z-pow(y,2);
+    c=sqrt(d)-pow(x,2)*y;
+    if(b!=0 || c!=0 || d!=0)
+    {
+        a=b/c;
+        printf("a=%g",a);
+    }
+    else
+    {
+        printf("Помилка");
+    }
+    return 0;
+}

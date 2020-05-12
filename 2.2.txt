@@ -1,0 +1,15 @@
+﻿#include <stdio.h>
+#include <math.h>
+int main()
+{
+float a,b,c,y;
+printf("a=");
+scanf("%g",&a);
+printf("b=");
+scanf("%g",&b);
+printf("c=");
+scanf("%g",&c);
+y=((2*a+1+c)/b)-((3*b+c)/c);
+printf("%g",y); 
+    return 0;
+}

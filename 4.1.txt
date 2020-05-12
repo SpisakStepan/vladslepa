@@ -1,0 +1,30 @@
+﻿#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main()
+{
+    float x,y,z,n,m,a;
+    do
+    {
+    printf("x=");
+    scanf("%f",&x);
+    printf("y=");
+    scanf("%f",&y);
+    printf("z=");
+    scanf("%f",&z);
+    n=pow(x,2)+pow(z,2);
+    m=x-y;
+    if(n==0 || m<=0)
+    {
+        printf("Помилка\n");
+    }
+    else
+    {
+    a=n/sqrt(m);
+    printf("%g",a);
+    }
+    }while(n==0 || m<=0);
+    
+    return 0;
+}
